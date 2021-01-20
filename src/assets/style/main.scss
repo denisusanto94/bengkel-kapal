@@ -1,9 +1,45 @@
 #App{
     // background-color: black;
-    padding:0px
 }
 
 .sidebar{
     background-color: #2A3F4C;
     color: white;
+    padding:0px;
+}
+
+.logo{
+    padding:0px;
+}
+
+.sidebar-item{
+    margin-top:18px;
+}
+
+.sidebar-item td{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header{
+    padding: 0px;
+}
+
+.header-item{
+    font-size: 18px;
+    margin-top:20px
+}
+
+
+.img-logo{
+    margin:15px;
+}
+
+.container-content{
+    padding: 0px;
+}
+
+.footer{
+    padding: 0px; 
 }

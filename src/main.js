@@ -4,6 +4,13 @@ import router from './router.js';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import '../src/assets/style/main.scss';
 
+import VueGoodTablePlugin from 'vue-good-table';
+
+// import the styles
+import 'vue-good-table/dist/vue-good-table.css'
+
+Vue.use(VueGoodTablePlugin);
+
 Vue.config.productionTip = false
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
