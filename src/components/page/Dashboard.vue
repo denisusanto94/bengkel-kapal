@@ -1,59 +1,28 @@
 <template>
     <div class="dashboard">
         <div>
-        <b-card title="Card title" sub-title="Card subtitle">
-            <b-card-text>
-            Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
-            content.
-            </b-card-text>
-
-            <b-card-text>A second paragraph of text in the card.</b-card-text>
-
-            <a href="#" class="card-link">Card link</a>
-            <b-link href="#" class="card-link">Another link</b-link>
-        </b-card>
-        </div>
-
-               <div>
-        <b-card title="Card title" sub-title="Card subtitle">
-            <b-card-text>
-            Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
-            content.
-            </b-card-text>
-
-            <b-card-text>A second paragraph of text in the card.</b-card-text>
-
-            <a href="#" class="card-link">Card link</a>
-            <b-link href="#" class="card-link">Another link</b-link>
-        </b-card>
-        </div>
-
-               <div>
-        <b-card title="Card title" sub-title="Card subtitle">
-            <b-card-text>
-            Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
-            content.
-            </b-card-text>
-
-            <b-card-text>A second paragraph of text in the card.</b-card-text>
-
-            <a href="#" class="card-link">Card link</a>
-            <b-link href="#" class="card-link">Another link</b-link>
-        </b-card>
-        </div>
-
-               <div>
-        <b-card title="Card title" sub-title="Card subtitle">
-            <b-card-text>
-            Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
-            content.
-            </b-card-text>
-
-            <b-card-text>A second paragraph of text in the card.</b-card-text>
-
-            <a href="#" class="card-link">Card link</a>
-            <b-link href="#" class="card-link">Another link</b-link>
-        </b-card>
+            <b-row>
+                <b-col cols="6">
+                    <b-card title="Dashboard">
+                        <b-row>
+                            <b-col cols="12">
+                                <ul style="list-style-type: none;">
+                                    <li>Partia 1</li>
+                                    <li>Partia 2</li>
+                                    <li>Partia 3</li>
+                                    <li>Partia 4</li>
+                                </ul>
+                            </b-col>
+                            <b-col cols="12">ddd</b-col>
+                        </b-row>
+                    </b-card>
+                </b-col>
+                <b-col cols="6">
+                    <b-card title="Card title" sub-title="Card subtitle">
+                        asd
+                    </b-card>
+                </b-col>
+            </b-row>
         </div>
     </div>
 </template>

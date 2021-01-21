@@ -16,6 +16,7 @@
     "vue-good-table": "^2.21.3",
     "vue-router": "^3.4.9",
     "vue2-datatable-component": "^2.3.1",
+    "vue2-datepicker": "^3.8.2",
     "vuetable-2": "^2.0.0-beta.4"
   },
   "devDependencies": {

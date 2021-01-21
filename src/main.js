@@ -6,6 +6,11 @@ import '../src/assets/style/main.scss';
 
 import VueGoodTablePlugin from 'vue-good-table';
 
+import DatePicker from 'vue2-datepicker';
+import 'vue2-datepicker/index.css';
+
+Vue.use(DatePicker);
+
 // import the styles
 import 'vue-good-table/dist/vue-good-table.css'
 
